@@ -1,0 +1,7 @@
+a, b = map(int, input().split())
+print(f'{1 if a>=b else 0}')
+print(f'{1 if a>b else 0}')
+print(f'{1 if b>=a else 0}')
+print(f'{1 if b>a else 0}')
+print(f'{1 if a==b else 0}')
+print(f'{1 if a!=b else 0}')
