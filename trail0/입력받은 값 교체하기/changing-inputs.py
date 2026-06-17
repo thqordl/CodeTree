@@ -1,5 +1,4 @@
 a, b = input().split()
-t = a
-a = b
-b = t
-print(f'{a} {b}')
+a = int(a)
+b = int(b)
+print(f'{b} {a}')
